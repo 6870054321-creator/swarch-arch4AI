@@ -1,9 +1,9 @@
 # Task 4: Deployment topologies and trade-offs
 
-**Name / ชื่อ:**
-chatchai panpreeda
-**Student ID / รหัสนิสิต:**
-6870054321
+**Name / ชื่อ:** chatchai panpreeda
+
+**Student ID / รหัสนิสิต:** 6870054321
+
 This is **individual work**: each student completes and submits their own copy, in their own fork.
 
 *งานนี้เป็น**งานเดี่ยว** นิสิตแต่ละคนทำและส่งงานของตัวเอง ใน fork ของตัวเอง*
@@ -117,7 +117,7 @@ Use the ADR format from W5.
 
 **Consequences:** 
 - Positive: ใช้ large model เพียง 12.4 calls/s ที่ช่วงพีค (t3-cache) ต่ำกว่าขีดจำกัด 20 calls/s, p95 ประมาณ 560 ms อยู่ภายใน 2 วินาที, accuracy 91.5% และเมื่อ large model ค้าง รีวิวไม่ล้มเหลว (t1-after errors = 0)
-- Negative: ----
+- Negative: แลกกับความแม่นยำที่ลดลง โดย accuracy ลดจาก 93.5% (t2-0.8) เหลือ 91.5% (t2-0.6) จึงมีโอกาสส่ง alert ผิดมากขึ้น ซึ่งเป็นสิ่งที่ QR ข้อ 3 ไม่ต้องการ
 
 **Alternatives considered:** at least one topology you rejected, and why.
 
