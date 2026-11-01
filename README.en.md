@@ -182,6 +182,9 @@ For example, in the output above `p50_ms` = 497 and `p95_ms` = 581. Half the rev
 
 Each task is a short TODO (4–25 lines). You can write it yourself, or ask any coding agent (Copilot, Claude Code, Codex, Cursor, …) to do it. The agent's rules are in [`AGENTS.md`](AGENTS.md). **However, the answers to the questions and the ADR must be your own reasoning.**
 
+#### Note 3: If you really cannot do a task, you may look at the solution
+The solutions for Tasks 1–3 are in [`solutions/`](solutions/README.md). **Try the task yourself first**, using the hints in the TODO comments and the test messages. If you are still stuck, look at the solution and read it until you can explain how the code works. The measurements, the worksheet answers and the ADR must still be your own.
+
 ## Tasks
 
 Write your results and answers in [`worksheet/task1-3.md`](worksheet/task1-3.md).
